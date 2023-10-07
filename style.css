@@ -1,0 +1,133 @@
+header {
+    color: #093348;
+    padding: 2px;
+    text-align: center;
+    font-size: 25px;
+    
+}
+h1{
+    text-shadow: 
+        -1px -1px 0 #ffe7e7,  
+         1px -1px 0 #000,
+        -1px  1px 0 #000,
+         1px  1px 0 #000;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+    margin-top: 5px;
+    color: #053147; /* Text color */
+}
+
+nav a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #586e61 /* Text color */
+    font-size:25px;
+    text-decoration:underline;
+}
+body{
+    background-image: url(background.jpg);
+    background-size: cover;
+}
+    img {
+        padding-top: 0px;
+       border-radius: 1px;
+        padding: 0px;
+        width: 230px;
+
+      }
+      .image{
+        padding-top: 0px;
+        display: inline-flex;
+        align-items: center;
+        padding:0px;
+      }
+      p{
+        padding-top: 0px;
+        color: #093348;
+        text-decoration: double;
+        text-shadow: #093348;
+        font-size: 35px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-shadow: 
+      }
+      .social-links img {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.2s ease; /* Add a hover effect */
+        border-color: #093348;
+    }
+    .social-links {
+        text-align: center;
+        margin-top: 01px;
+        border-radius: 20px;
+        border-color: #093348;
+    }
+    
+    .social-links a {
+        display: inline-block;
+        margin: 10 10px;
+        border-radius: 20px;
+        border-color: #093348;
+    }
+    .social-links img:hover {
+        transform: scale(1.2); /* Enlarge the icon on hover */
+    }
+    button{
+        background-color:#093348; /* Button background color */
+        color: #dbe3f4; /* Text color */
+        padding: 10px 50px 10px 20px; /* Button padding */
+        border: none; /* Remove button border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer;
+        font-size: 20px;
+    }
+    .button
+    {
+        padding-left:600px;
+        padding-top: 0%;
+        padding-bottom: 20px;
+    }
+    .about{
+        margin-top: 01px;
+        border-radius: 20px;
+        border-color: #093348;
+        font-size:25px;
+        padding-left: 600px;
+    }
+    .aboutbody{
+        background-color: rgb(188, 220, 250);
+        padding: 10px;
+        padding-left: 30px;
+    }
+    .socialmedia{
+        background-color: rgb(188, 220, 250);
+        padding: 10px;
+        padding-left: 30px;
+    }
+    .Contact{
+        background-color: rgb(188, 220, 250);
+        padding: 10px;
+        align-items: center;
+    }
+    .card{
+        
+        border-radius: 8px;
+        padding-left: 600px;
+        width: 350px;
+        font-size: 25px;
+    }
+    .card img {
+        width: 30px;
+        height: 30px;
+        transition: transform 0.2s ease; /* Add a hover effect */
+        border-color: #093348;
+        display: inline-flex;
+        align-items: center;
+    }
